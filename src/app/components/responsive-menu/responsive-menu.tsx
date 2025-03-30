@@ -17,7 +17,7 @@ const ResponsiveMenu=({open}: any)=>{
                         animate={{opacity: 1, y: 0}}
                         exit={{opacity: 0, y: -100}}
 
-                        className="left-0 w-full h-screen absolute top-10 z-20">
+                        className="left-0 w-full h-screen  z-20">
 
                             <div className="bg-orange-950  py-10 m-5 rounded-3xl md:hidden">
                                 <ul className="flex flex-col justify-center items-center gap-10">
