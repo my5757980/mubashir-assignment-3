@@ -5,19 +5,12 @@ import Image from "next/image"
 import { RxHamburgerMenu } from "react-icons/rx";
 import Link from "next/link"
 import ResponsiveMenu from "../responsive-menu/responsive-menu";
-import { useState , useEffect} from "react"
+import { useState } from "react"
 export default function Navbar(){
     const [open,setOpen] = useState(false)
 
 
 
-    useEffect(() => {
-        if (open) {
-          document.body.style.overflow = 'hidden';
-        } else {
-          document.body.style.overflow = 'auto';
-        }
-      }, [open]);
 
     return(
         <div className="overflow-x-hidden ">
